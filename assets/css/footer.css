@@ -1,0 +1,155 @@
+.footer {
+  padding-top: 100px;
+  background: #1b6abf;
+}
+
+.footer h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.footer .left p,
+.footer h1 {
+  color: #fff;
+}
+
+.footer .privacy a {
+  color: #fff;
+}
+
+.submit:hover {
+  transition: 1s;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin: 0px !important;
+}
+.right {
+  position: relative;
+  top: -15rem;
+  display: flex;
+  justify-content: right;
+  right: 5rem;
+}
+.rightcard {
+  color: #333;
+  background: #fff;
+  padding: 40px;
+  width: 19rem;
+  text-align: center;
+  border-radius: 3px;
+}
+.rightcard p {
+  margin: 0px !important;
+}
+.footer .icon ul li {
+  float: left;
+  list-style: none;
+}
+.footer .icon i {
+  font-size: 25px;
+  color: #0b4180;
+  width: 46px;
+  height: 46px;
+  background: #fff;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 2;
+  margin-right: 7px;
+}
+
+.footer .icon ul li:nth-of-type(1):hover i {
+  background: #0b4180;
+  transition: 1s;
+  color: #fff;
+}
+.footer .icon ul li:nth-of-type(2):hover i {
+  color: #fff;
+  background: red;
+  transition: 1s;
+}
+
+.footer .icon ul li:nth-of-type(3):hover i {
+  color: #fff !important;
+  background: #1da1f2;
+  transition: 1s;
+}
+
+.footer .icon ul li:nth-of-type(4):hover i {
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  transition: 1s;
+}
+/* @media (max-width: 375px) {
+    .footer .privacy a{
+        text-decoration: none;
+    }
+} */
+@media screen and (max-width: 480px) {
+  .footer h1,
+  .footer p,
+  .footer div {
+    text-align: center;
+  }
+  .footer .row {
+    height: 90vh !important;
+  }
+  .footer .right {
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+  }
+  .footer .right .rightcard {
+    background: none;
+    color: #fff;
+  }
+  .footer .right .rightcard h5 {
+    color: #fff;
+  }
+  .copyright {
+    margin-top: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer h1,
+  .footer p {
+    text-align: center;
+  }
+
+  .footer .row {
+    height: 60vh;
+  }
+  .right {
+    top: -35rem;
+    display: flex;
+    justify-content: right;
+    right: 3rem;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .footer h1,
+  .footer p {
+    text-align: center;
+  }
+
+  .right {
+    top: -35rem;
+    display: flex;
+    justify-content: right;
+    right: 3rem;
+  }
+}

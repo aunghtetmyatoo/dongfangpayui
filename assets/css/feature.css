@@ -1,0 +1,168 @@
+.section-features {
+  color: #000000;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  background-color: #eaeff1;
+  /* display: inline-block; */
+  /* background-image: url("../../img/background/about.jpg"); */
+  /* background-image: url("../../img/background/features.jpg"); */
+  margin-top: 10rem;
+  padding: 5rem 0;
+}
+
+.featurecontainer {
+  position: relative;
+}
+
+.featurecontainer .featurecard {
+  margin: 2rem;
+  position: relative;
+  width: 15rem;
+  height: 500px;
+  background: rgb(57, 106, 252);
+  background: linear-gradient(
+    177deg,
+    rgba(57, 106, 252, 1) 0%,
+    rgba(0, 122, 246, 1) 54%,
+    rgba(86, 204, 242, 1) 100%
+  );
+
+  border-radius: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.featurecontainer .featurecard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+  transition: 0.5s ease-in-out;
+}
+
+.featurecontainer .featurecard:hover:before {
+  clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 55%);
+
+  transition: 1s;
+}
+
+.featurecontainer .featurecard:after {
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 25, 0.05);
+}
+
+.featurecontainer .featurecard .imgBx {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  z-index: 100;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.featurecontainer .featurecard:hover .imgBx {
+  top: 10%;
+  transform: translateY(0%);
+}
+
+.featurecontainer .featurecard .imgBx img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+.section-features-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: -0px;
+  justify-content: center;
+}
+.featurecontainer .featurecard .contentBx {
+  position: absolute;
+  bottom: -42px;
+  /* width: 100%; */
+  height: 100px;
+  left: 0%;
+  text-align: justify;
+  margin: 1rem;
+  transition: 1s;
+  z-index: 10;
+  color: #fff;
+}
+
+.featurecontainer .featurecard:hover .contentBx {
+  height: 260px;
+}
+
+.featurecontainer .featurecard .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.featurecontainer .featurecard .contentBx .size,
+.featurecontainer .featurecard .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.featurecontainer .featurecard:hover .contentBx .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.featurecontainer .featurecard:hover .contentBx .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.featurecontainer .featurecard .contentBx .size h3,
+.featurecontainer .featurecard .contentBx .color h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.featurecontainer .featurecard .contentBx .size span {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}

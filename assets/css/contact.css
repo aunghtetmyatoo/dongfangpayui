@@ -1,0 +1,67 @@
+.contactus {
+  background: #eee;
+  padding: 100px 0;
+  margin-top: 5rem;
+}
+.contactus h2 {
+  color: #0b4180;
+  text-align: center;
+}
+.contactus .form-button .submit {
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  color: #fff;
+  background-image: linear-gradient(to right bottom, #5798e3, #7dd2f9);
+  box-shadow: 0 5px 10px 0 rgba(242, 243, 243, 0.43);
+  border: none;
+}
+
+.contactus .form-button .submit:hover {
+  background-image: linear-gradient(to right bottom, #7dd2f9, #5798e3);
+}
+
+.contactus .signin-signup-form .form-text input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
+  outline: 0;
+  box-shadow: 5px 5px 10px hsla(212, 71%, 62%, 0.431);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.contactus .textarea textarea {
+  margin-top: 10px;
+  min-height: 150px;
+  padding: 14px 30px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  box-shadow: 5px 5px 10px hsla(212, 71%, 62%, 0.431);
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.contactus img {
+  margin-top: -4rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .contactus {
+    padding: 50px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactus img {
+    display: none;
+  }
+}

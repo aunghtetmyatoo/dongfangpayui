@@ -1,0 +1,120 @@
+.partner {
+  padding-top: 120px;
+  padding-bottom: 200px;
+  background-color: #1b6abf !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+  background-image: url("/assets/img/majuly/partner.webp");
+}
+
+.partner p {
+  color: #fff;
+}
+
+.partner h2 {
+  color: #fff;
+}
+
+.partner img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.partner .container {
+  padding-bottom: 100px;
+}
+
+.partner .line {
+  background: #d8a611;
+  height: 4px;
+  width: 100px;
+  margin-top: -10px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+.pic-ctn {
+  position: relative;
+  width: 100%;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: calc(50% -100px);
+  opacity: 0;
+  animation: display 25s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 5s;
+}
+
+img:nth-child(3) {
+  animation-delay: 10s;
+}
+
+img:nth-child(4) {
+  animation-delay: 15s;
+}
+
+img:nth-child(5) {
+  animation-delay: 20s;
+}
+
+@media screen and (max-width: 480px) {
+  .partner {
+    padding-top: 50px;
+    padding-bottom: 270px !important;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .partner h2,
+  .partner p {
+    text-align: center;
+  }
+  .partner .pic-ctn > img {
+    width: 100%;
+    top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partner {
+    padding: 70px 2px 40px 2px;
+  }
+
+  .partner .pic-ctn > img {
+    width: 100%;
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .partner {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+}
