@@ -54,14 +54,17 @@
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-  .contactus {
-    padding: 50px 0px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .contactus img {
     display: none;
+  }
+  .contactus .row {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contactus {
+    padding: 50px 0px;
   }
 }

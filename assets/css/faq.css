@@ -4,7 +4,7 @@
 }
 .question_and_answer {
   margin-top: 3rem;
-  padding: 0 3rem;
+  /* padding: 0 3rem; */
 }
 .question_and_answer h2 {
   text-align: center;
@@ -44,9 +44,9 @@
   display: flex;
   align-items: center;
   margin: 10px 0px;
-  /* cursor: pointer; */
+  cursor: pointer;
   /* cursor: all-scroll; */
-  cursor: row-resize;
+  /* cursor: row-resize; */
 }
 
 .question img {
@@ -142,6 +142,9 @@
     font-size: 0.9rem;
     line-height: 1.2;
   }
+  .faq_par {
+    height: 200px;
+  }
 }
 
 /*====================*/
@@ -150,5 +153,14 @@
 @media only screen and (max-width: 768px) {
   .answer_container {
     margin-bottom: 2rem;
+  }
+  .question_and_answer {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .answer_container {
+    margin-bottom: 1.8rem;
   }
 }

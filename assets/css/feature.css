@@ -109,7 +109,7 @@
 .featurecontainer .featurecard .contentBx h2 {
   position: relative;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   color: #fff;
   margin: 1rem;
   font-size: 1.3rem;
@@ -164,4 +164,10 @@
   color: #111;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .featurecontainer .featurecard {
+    width: 70vw;
+  }
 }
