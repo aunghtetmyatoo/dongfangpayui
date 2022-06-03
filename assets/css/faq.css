@@ -156,10 +156,14 @@
   }
   .question_and_answer {
     padding: 0;
+    margin-top: 9rem;
   }
 }
 
 @media only screen and (max-width: 480px) {
+  .question_and_answer {
+    margin-top: 4rem;
+  }
   .answer_container {
     margin-bottom: 1.8rem;
   }

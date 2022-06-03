@@ -15,6 +15,9 @@
   padding-top: 120px;
   padding-bottom: 200px;
 }
+.btsvg {
+  display: none;
+}
 .partner::before {
   /* background: rgb(255, 255, 255); */
   background-image: url("../img/majuly/partner.webp");
@@ -116,7 +119,15 @@ img:nth-child(5) {
 @media screen and (max-width: 768px) {
   .partner {
     padding: 70px 2px 40px 2px;
-    padding-bottom: 20rem !important;
+    padding-bottom: 15rem !important;
+    margin-bottom: -1px;
+  }
+  .partner::before {
+    background-image: none;
+    margin: 0;
+  }
+  .btsvg {
+    display: block;
   }
 
   .partner .pic-ctn > img {
@@ -137,6 +148,9 @@ img:nth-child(5) {
     padding-bottom: 270px !important;
     padding-left: 2px;
     padding-right: 2px;
+  }
+  .partner .container {
+    padding-bottom: 0;
   }
   .partner h2,
   .partner p {
