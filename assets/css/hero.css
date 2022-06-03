@@ -1,0 +1,228 @@
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  position: relative;
+  padding: 120px 0 0 0;
+}
+#hero::before {
+  /* background: rgb(255, 255, 255); */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(13, 194, 252, 1) 30%,
+    rgba(13, 194, 252, 1) 50%,
+    rgba(35, 54, 172, 1) 100%
+  );
+  /* background: #0b4180 !important; */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero h1 {
+  margin: 0 0 1.2rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#hero h2 {
+  margin-bottom: 2.5rem;
+  font-size: 24px;
+}
+#hero h1,
+#hero h2 {
+  max-width: 60%;
+}
+#hero i,
+.btn-wrapper i {
+  margin-right: 0.3rem;
+}
+#hero .btn-wrapper {
+  display: flex;
+}
+#hero .app-store-btn-wrapper::before,
+#hero .play-store-btn-wrapper::before,
+.app-store-btn-wrapper::before,
+.play-store-btn-wrapper::before {
+  content: attr(data-caption);
+  display: block;
+  height: 44px;
+  /* background-color: rgb(32, 72, 182); */
+  /* background-color: rgb(183, 149, 80); */
+  background: linear-gradient(
+    83deg,
+    rgba(255, 202, 42, 1) 0%,
+    rgba(228, 194, 99, 1) 25%,
+    rgba(163, 139, 95, 1) 50%,
+    rgba(228, 188, 74, 1) 75%,
+    rgba(255, 202, 42, 1) 100%
+  );
+
+  -ms-transform: rotate(8deg); /* IE 9 */
+  transform: rotate(8deg);
+  border-radius: 20px;
+  position: relative;
+  top: 44px;
+  margin-right: 1rem;
+  box-shadow: 0 0 5px 1px #4444;
+}
+/* #hero .play-store-btn-wrapper::before {
+  background-color: rgb(183, 149, 80);
+} */
+#hero .app-store-btn,
+#hero .play-store-btn,
+.app-store-btn,
+.play-store-btn {
+  position: relative;
+  color: #fff;
+  /* background-color: rgb(28, 31, 35); */
+  background-color: rgb(58, 104, 240);
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  display: inline-block;
+  width: max-content;
+  margin-right: 1rem;
+  letter-spacing: 1px;
+  padding: 0.7rem 1.5rem;
+  box-shadow: 0 0 5px 1px #4444;
+}
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.hero-waves {
+  display: block;
+  margin-top: 50px;
+  width: 100%;
+  height: 60px;
+  z-index: 5;
+  position: relative;
+}
+.wave1 use {
+  -webkit-animation: move-forever1 10s linear infinite;
+  animation: move-forever1 10s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+.wave2 use {
+  -webkit-animation: move-forever2 8s linear infinite;
+  animation: move-forever2 8s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+.wave3 use {
+  -webkit-animation: move-forever3 6s linear infinite;
+  animation: move-forever3 6s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+/*====================*/
+/* Tablet
+/*====================*/
+@media only screen and (max-width: 992px) {
+  /*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+  #hero::before {
+    margin-bottom: 0.1rem;
+  }
+  #hero h1 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  #hero h2 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  #hero .btn-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #hero .hero-img {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  #hero .hero-img img {
+    max-height: 24rem;
+  }
+}
+
+/*====================*/
+/* Mobile
+/*====================*/
+
+@media only screen and (max-width: 767px) {
+}

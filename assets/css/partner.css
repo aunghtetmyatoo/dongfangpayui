@@ -104,6 +104,7 @@ img:nth-child(5) {
 @media screen and (max-width: 768px) {
   .partner {
     padding: 70px 2px 40px 2px;
+    padding-bottom: 20rem !important;
   }
 
   .partner .pic-ctn > img {
