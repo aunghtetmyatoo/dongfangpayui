@@ -1,12 +1,12 @@
 $(document).ready(function () {
-  $(".testimonial .indicators li").click(function () {
+  $(".about .indicators li").click(function () {
     var i = $(this).index();
-    var targetElement = $(".testimonial .tabs li");
+    var targetElement = $(".about .tabs li");
     targetElement.eq(i).addClass('active');
     targetElement.not(targetElement[i]).removeClass('active');
   });
-  $(".testimonial .tabs li").click(function () {
-    var targetElement = $(".testimonial .tabs li");
+  $(".about .tabs li").click(function () {
+    var targetElement = $(".about .tabs li");
     targetElement.addClass('active');
     targetElement.not($(this)).removeClass('active');
   });

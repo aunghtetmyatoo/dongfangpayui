@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 
-body .testimonial {
+body .about {
   padding: 100px 0;
 }
-body .testimonial .row .tabs {
+body .about .row .tabs {
   all: unset;
   margin-right: 50px;
   display: flex;
   flex-direction: column;
 }
-body .testimonial .row .tabs li {
+body .about .row .tabs li {
   all: unset;
   display: block;
   position: relative;
 }
-body .testimonial .row .tabs li.active::before {
+body .about .row .tabs li.active::before {
   position: absolute;
   content: "";
   width: 50px;
@@ -22,7 +22,7 @@ body .testimonial .row .tabs li.active::before {
   background-color: #0dc2fc;
   border-radius: 50%;
 }
-body .testimonial .row .tabs li.active::after {
+body .about .row .tabs li.active::after {
   position: absolute;
   content: "";
   width: 30px;
@@ -30,65 +30,65 @@ body .testimonial .row .tabs li.active::after {
   background-color: #0dc2fc;
   border-radius: 50%;
 }
-body .testimonial .row .tabs li:nth-child(1) {
+body .about .row .tabs li:nth-child(1) {
   align-self: flex-end;
 }
-body .testimonial .row .tabs li:nth-child(1)::before {
+body .about .row .tabs li:nth-child(1)::before {
   left: 64%;
   bottom: -50px;
 }
-body .testimonial .row .tabs li:nth-child(1)::after {
+body .about .row .tabs li:nth-child(1)::after {
   left: 97%;
   bottom: -81px;
 }
-body .testimonial .row .tabs li:nth-child(1) figure img {
+body .about .row .tabs li:nth-child(1) figure img {
   margin-left: auto;
 }
-body .testimonial .row .tabs li:nth-child(2) {
+body .about .row .tabs li:nth-child(2) {
   align-self: flex-start;
 }
-body .testimonial .row .tabs li:nth-child(2)::before {
+body .about .row .tabs li:nth-child(2)::before {
   right: -65px;
   top: 50%;
 }
-body .testimonial .row .tabs li:nth-child(2)::after {
+body .about .row .tabs li:nth-child(2)::after {
   bottom: 101px;
   border-radius: 50%;
   right: -120px;
 }
-body .testimonial .row .tabs li:nth-child(2) figure img {
+body .about .row .tabs li:nth-child(2) figure img {
   margin-right: auto;
   max-width: 300px;
   width: 100%;
   margin-top: -50px;
 }
-body .testimonial .row .tabs li:nth-child(3) {
+body .about .row .tabs li:nth-child(3) {
   align-self: flex-end;
 }
-body .testimonial .row .tabs li:nth-child(3)::before {
+body .about .row .tabs li:nth-child(3)::before {
   right: -10px;
   top: -66%;
 }
-body .testimonial .row .tabs li:nth-child(3)::after {
+body .about .row .tabs li:nth-child(3)::after {
   top: -130px;
   border-radius: 50%;
   right: -46px;
 }
-body .testimonial .row .tabs li:nth-child(3) figure img {
+body .about .row .tabs li:nth-child(3) figure img {
   margin-left: auto;
   margin-top: -50px;
 }
-body .testimonial .row .tabs li:nth-child(3):focus {
+body .about .row .tabs li:nth-child(3):focus {
   border: 10px solid red;
 }
-body .testimonial .row .tabs li figure {
+body .about .row .tabs li figure {
   position: relative;
 }
-body .testimonial .row .tabs li figure img {
+body .about .row .tabs li figure img {
   display: block;
   border-radius: 150px;
 }
-body .testimonial .row .tabs li figure::after {
+body .about .row .tabs li figure::after {
   content: "";
   position: absolute;
   top: 0;
@@ -104,65 +104,51 @@ body .testimonial .row .tabs li figure::after {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-body .testimonial .row .tabs li figure:hover::after {
+body .about .row .tabs li figure:hover::after {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-body .testimonial .row .tabs.carousel-indicators li.active figure::after {
+body .about .row .tabs.carousel-indicators li.active figure::after {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-body .testimonial .row .carousel > h3 {
+body .about .row .carousel > h3 {
   font-size: 20px;
   line-height: 1.45;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 600;
   margin-bottom: 0;
 }
-body .testimonial .row .carousel h1 {
+body .about .row .carousel h1 {
   font-size: 40px;
   line-height: 1.225;
   margin-top: 23px;
   font-weight: 700;
   margin-bottom: 0;
 }
-body .testimonial .row .carousel .carousel-indicators {
+body .about .row .carousel .carousel-indicators {
   all: unset;
   padding-top: 43px;
   display: flex;
   list-style: none;
 }
-body .testimonial .row .carousel .carousel-indicators li {
+body .about .row .carousel .carousel-indicators li {
   background: #000;
   background-clip: padding-box;
   height: 2px;
 }
-body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper {
+body .about .row .carousel .carousel-inner .carousel-item .quote-wrapper {
   margin-top: 42px;
 }
-body
-  .testimonial
-  .row
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .quote-wrapper
-  p {
+body .about .row .carousel .carousel-inner .carousel-item .quote-wrapper p {
   font-size: 18px;
   line-height: 1.72222;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.7);
 }
-body
-  .testimonial
-  .row
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .quote-wrapper
-  h3 {
+body .about .row .carousel .carousel-inner .carousel-item .quote-wrapper h3 {
   color: #000;
   font-weight: 700;
   margin-top: 37px;
@@ -172,16 +158,63 @@ body
 }
 
 @media only screen and (max-width: 1200px) {
-  body .testimonial .row .tabs {
+  body .about .row .tabs {
     margin-right: 25px;
   }
 }
 
-/* @media only screen and (max-width: 768px) {
-  body .testimonial .row .tabs {
-    all: unset;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: column;
+@media only screen and (max-width: 992px) {
+  body .about {
+    padding-bottom: 3rem;
   }
-} */
+  body .about .row .tabs {
+    all: unset;
+    /* margin-right: 50px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .about .about-txt-wrapper {
+    margin-top: 6rem;
+    text-align: center;
+  }
+  body .about .row .tabs li:nth-child(2)::before {
+    right: 124px;
+    top: 102%;
+  }
+  body .about .row .tabs li:nth-child(2)::after {
+    bottom: -100px;
+    border-radius: 50%;
+    right: 134px;
+  }
+  body .about .row .tabs li:nth-child(3)::before {
+    right: 132px;
+    top: 92%;
+  }
+  body .about .row .tabs li:nth-child(3)::after {
+    top: 192px;
+    border-radius: 50%;
+    right: 186px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .about {
+    padding-bottom: 2rem;
+  }
+  body .about .row .tabs li.active::before {
+    display: none;
+  }
+  body .about .row .tabs li.active::after {
+    display: none;
+  }
+  .about .about-txt-wrapper {
+    margin-top: 1rem;
+  }
+  body .about .row .carousel h1 {
+    font-size: 2rem;
+  }
+  body .about .row .carousel .carousel-inner .carousel-item .quote-wrapper {
+    margin-top: 1rem;
+  }
+}

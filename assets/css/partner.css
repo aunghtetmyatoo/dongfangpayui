@@ -1,13 +1,35 @@
-.partner {
+/* .partner {
   padding-top: 120px;
   padding-bottom: 200px;
   background-color: #1b6abf !important;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom;
-  background-image: url("/assets/img/majuly/partner.webp");
+  background-image: url("../img/majuly/partner.webp");
+} */
+.partner {
+  width: 100%;
+  position: relative;
+  padding: 120px 0 0 0;
+  background-color: #1b6abf !important;
+  padding-top: 120px;
+  padding-bottom: 200px;
 }
-
+.partner::before {
+  /* background: rgb(255, 255, 255); */
+  background-image: url("../img/majuly/partner.webp");
+  /* background: #0b4180 !important; */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+  margin-bottom: -0.1rem;
+}
 .partner p {
   color: #fff;
 }
@@ -113,7 +135,7 @@ img:nth-child(5) {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .partner {
     padding-top: 70px;
     padding-bottom: 40px;
