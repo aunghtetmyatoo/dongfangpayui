@@ -3,11 +3,11 @@ $(document).ready(function () {
 
     $('.faq_title').text("What is 'DONGFANG PAY'");
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
 
@@ -18,11 +18,11 @@ $(document).ready(function () {
 
   $('.q2').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -35,11 +35,11 @@ $(document).ready(function () {
 
   $('.q3').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -52,11 +52,11 @@ $(document).ready(function () {
 
   $('.q4').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -69,11 +69,11 @@ $(document).ready(function () {
 
   $('.q5').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text('What does DongFang Pay Partner mean? ');
@@ -84,11 +84,11 @@ $(document).ready(function () {
 
   $('.q6').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -101,11 +101,11 @@ $(document).ready(function () {
 
   $('.q7').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -118,11 +118,11 @@ $(document).ready(function () {
 
   $('.q8').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -135,11 +135,11 @@ $(document).ready(function () {
 
   $('.q9').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text('Why is DONGFANG PAY Account suspended? ');
@@ -150,11 +150,11 @@ $(document).ready(function () {
 
   $('.q10').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -167,11 +167,11 @@ $(document).ready(function () {
 
   $('.q11').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -184,11 +184,11 @@ $(document).ready(function () {
 
   $('.q12').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -201,11 +201,11 @@ $(document).ready(function () {
 
   $('.q13').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(
@@ -218,11 +218,11 @@ $(document).ready(function () {
 
   $('.q14').click(function () {
     const element = document.querySelector('.faq_par');
-    element.classList.add('animate__animated', 'animate__bounceInLeft');
+    element.classList.add('animate__animated', 'animate__fadeIn');
     element.addEventListener('animationend', () => {
       element.classList.remove(
         'animate__animated',
-        'animate__bounceInLeft'
+        'animate__fadeIn'
       );
     })
     $('.faq_title').text(

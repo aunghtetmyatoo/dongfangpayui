@@ -96,10 +96,12 @@
   height: 100px;
   left: 0%;
   text-align: justify;
-  margin: 1rem;
+  /* margin: 1rem; */
   transition: 1s;
   z-index: 10;
   color: #fff;
+  padding: 0.8rem;
+  text-align: center;
 }
 
 .featurecontainer .featurecard:hover .contentBx {
@@ -109,9 +111,8 @@
 .featurecontainer .featurecard .contentBx h2 {
   position: relative;
   font-weight: 600;
-  letter-spacing: 3px;
   color: #fff;
-  margin: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.3rem;
 }
 
@@ -146,7 +147,6 @@
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 2px;
   margin-right: 10px;
 }
 
