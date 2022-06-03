@@ -95,7 +95,7 @@ body .about .row .tabs li figure::after {
   z-index: -1;
   width: 100%;
   height: 100%;
-  border: 4px solid #dff9d9;
+  border: 4px solid #d9e4f9;
   border-radius: 50%;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
