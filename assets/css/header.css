@@ -15,8 +15,8 @@
   box-shadow: 0px 2px 5px -4px #888888;
   /* background: rgb(255, 255, 255); */
   background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
+    300deg,
+    rgba(13, 194, 252, 1) 0%,
     rgba(13, 194, 252, 1) 30%,
     rgba(13, 194, 252, 1) 50%,
     rgba(35, 54, 172, 1) 100%
@@ -24,6 +24,10 @@
   /* background: #0b4180 !important; */
   height: 4.4rem;
   opacity: 0.96;
+  transition-duration: 0.5s;
+}
+#header .logo {
+  margin-bottom: 0;
 }
 #header .logo a {
   display: flex;
@@ -44,6 +48,7 @@
   font-weight: 700;
   font-family: "Poppins";
   letter-spacing: 0.1rem;
+  color: #fff;
 }
 
 #header .head-btn-wrapper::before {

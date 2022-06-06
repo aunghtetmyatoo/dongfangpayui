@@ -9,8 +9,8 @@
 #hero::before {
   /* background: rgb(255, 255, 255); */
   background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
+    300deg,
+    rgba(13, 194, 252, 1) 0%,
     rgba(13, 194, 252, 1) 30%,
     rgba(13, 194, 252, 1) 50%,
     rgba(35, 54, 172, 1) 100%
@@ -35,6 +35,7 @@
 #hero h1,
 #hero h2 {
   max-width: 60%;
+  color: #fff;
 }
 #hero i,
 .btn-wrapper i {

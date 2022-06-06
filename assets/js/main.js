@@ -133,4 +133,12 @@
     });
 
 
+    $('.btn-slide2').click(function () {
+        $(".circle2").empty();
+        $(".circle2").append(" <span class='download_spinner'></span>");
+        setTimeout(function () {
+            $(".circle2").empty();
+            $(".circle2").append("<i class='fa fa-download'></i>");
+        }, 2000);
+    });
 })(jQuery);

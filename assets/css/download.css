@@ -1,0 +1,278 @@
+.download_container {
+  padding-top: 4rem;
+}
+#download_buttons {
+  margin: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  width: 800px;
+}
+
+.download_option .download_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #444444;
+  margin-bottom: 2rem;
+}
+.download_option p {
+  font-size: 1.1rem;
+  line-height: 1.72222;
+  font-weight: 500;
+}
+
+.apple {
+  font-size: 20px;
+  text-align: center;
+}
+.circle,
+.circle2,
+.circle3 {
+  text-align: center;
+}
+
+.btn-slide_android,
+.btn-slide_apple,
+.btn-slide2 {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 50px;
+  background: #fdfdfd;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+/*  button border */
+.btn-slide2 {
+  border: 2px solid #efa666;
+}
+
+.btn-slide_android {
+  border: 2px solid #0099cc;
+}
+.btn-slide_apple {
+  border: 2px solid black;
+}
+
+/*  button hover color  */
+.btn-slide2:hover {
+  background-color: #efa666;
+}
+
+.btn-slide_android:hover {
+  background-color: #0099cc;
+}
+
+.btn-slide_apple:hover {
+  background-color: black;
+}
+
+/*   when hover circle change */
+.btn-slide_android:hover span.circle,
+.btn-slide2:hover span.circle2,
+.btn-slide_apple:hover span.circle3 {
+  left: 100%;
+  margin-left: -45px;
+  background-color: #fdfdfd;
+}
+
+.btn-slide2:hover span.circle2 {
+  color: #efa666;
+}
+
+.btn-slide_android:hover span.circle {
+  color: #0099cc;
+}
+
+.btn-slide_apple:hover span.circle3 {
+  color: black;
+}
+
+/*   when hover title change */
+
+.btn-slide_android:hover span.title,
+.btn-slide2:hover span.title2,
+.btn-slide_apple:hover span.title3 {
+  left: 40px;
+  opacity: 0;
+}
+
+/*   when hover Click hrer Appear */
+.btn-slide_android:hover span.title-hover,
+.btn-slide2:hover span.title-hover2,
+.btn-slide_apple:hover span.title-hover3 {
+  opacity: 1;
+  left: 40px;
+}
+
+/*  circle  */
+.btn-slide_android span.circle,
+.btn-slide2 span.circle2,
+.btn-slide_apple span.circle3 {
+  display: block;
+  color: #fff;
+  position: absolute;
+  float: left;
+  margin: 3.5px;
+  line-height: 42px;
+  height: 40px;
+  width: 40px;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.btn-slide_android span.circle {
+  background-color: #0099cc;
+}
+.btn-slide2 span.circle2 {
+  background-color: #efa666;
+}
+
+.btn-slide_apple span.circle3 {
+  background-color: black;
+}
+
+/*   */
+.btn-slide_android span.title,
+.btn-slide_android span.title-hover,
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2,
+.btn-slide_apple span.title3,
+.btn-slide_apple span.title-hover3 {
+  position: absolute;
+
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: 0.5s;
+}
+
+.btn-slide_android span.title,
+.btn-slide_android span.title-hover {
+  color: #30abd5;
+  left: 90px;
+}
+.btn-slide2 span.title2,
+.btn-slide2 span.title-hover2 {
+  color: #efa666;
+  left: 80px;
+}
+
+.btn-slide_apple span.title3,
+.btn-slide_apple span.title-hover3 {
+  color: black;
+  left: 100px;
+}
+
+/*   */
+.btn-slide_android span.title-hover,
+.btn-slide2 span.title-hover2,
+.btn-slide_apple span.title-hover3 {
+  left: 80px;
+  opacity: 0;
+}
+
+.btn-slide_android span.title-hover,
+.btn-slide2 span.title-hover2,
+.btn-slide_apple span.title-hover3 {
+  color: #fff;
+}
+
+.download_image {
+  /* width: 470px;
+  height: 300px; */
+
+  height: 450px;
+  padding-right: 50px;
+  /* margin-left: 100px; */
+}
+
+.download_image img {
+  /* height: 330px; */
+  width: 100%;
+}
+
+.download_option {
+  margin: auto;
+}
+@media screen and (max-width: 1400px) {
+  #download_buttons {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column;
+    margin-left: 50px; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .download_image {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .download_container {
+    text-align: center;
+    padding: 6rem 0;
+  }
+  .download_image {
+    display: none;
+  }
+
+  #download_buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* .download_container {
+    margin-top: 50px;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  /* #download_buttons {
+    justify-content: center;
+  } */
+}
+
+/*   loading Button */
+
+.btn-slide2:hover .download_spinner {
+  border-top: 3px solid #efa666;
+}
+
+.download_spinner {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  background: transparent;
+  box-sizing: border-box;
+  border-top: 3px solid #fdfdfd;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 100%;
+  /* animation: spin 0.6s ease-out infinite; */
+  animation: spin 0.6s ease-out infinite;
+  animation-iteration-count: 2;
+  /* animation-duration: 6s; */
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -9,6 +9,12 @@
   /* background-image: url("../../img/background/features.jpg"); */
   padding: 5rem 0;
 }
+.section-features h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #444444;
+  margin-bottom: 2rem;
+}
 
 .featurecontainer {
   position: relative;

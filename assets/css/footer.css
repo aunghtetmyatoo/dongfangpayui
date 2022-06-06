@@ -16,6 +16,9 @@
 .footer .privacy a {
   color: #fff;
 }
+.footer .privacy a:hover {
+  text-decoration: underline;
+}
 
 .submit:hover {
   transition: 1s;
