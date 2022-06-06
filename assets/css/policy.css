@@ -1,0 +1,18 @@
+.header-transparent {
+  background: linear-gradient(
+    300deg,
+    rgba(13, 194, 252, 1) 0%,
+    rgba(13, 194, 252, 1) 30%,
+    rgba(13, 194, 252, 1) 50%,
+    rgba(35, 54, 172, 1) 100%
+  ) !important;
+  height: 4.4rem !important;
+  opacity: 0.96 !important;
+  box-shadow: 0px 2px 5px -4px #888888 !important;
+}
+.policy {
+  margin-top: 8rem;
+}
+.footer {
+  padding: 0 !important;
+}
